@@ -4,7 +4,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const mineflayer = require('mineflayer');
 
-const serverHost = process.env.SERVER_HOST || 'Otta_Mind.aternos.me';
+const serverHost = process.env.SERVER_HOST || 'squeaker.aternos.host';
 const serverPort = parseInt(process.env.SERVER_PORT || '55409', 10);
 const botUsername = process.env.BOT_USERNAME || '247_Monitor';
 const minecraftVersion = process.env.MC_VERSION || false;
